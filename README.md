@@ -26,19 +26,11 @@ Using this JSON as input, we can assume the following:
 
 ## Grammar
 
-```
-Select Expression ::= .<identifier>
-```
-
 * Select expressions select the key \<identifier\> in the current indentation
 level of the JSON.
 * Select expressions can be chained to represent nested JSON.
 * The current implementation does not allow escaping of tokens, for instance the
   dot.
-
-```
-Index Expression ::= [<numeric literal>]
-```
 
 * Index expressions select an entry from a JSON array at the index
 \<numeric literal\>.
