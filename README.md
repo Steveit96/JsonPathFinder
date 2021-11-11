@@ -54,7 +54,7 @@ Parses the lexed tokens into an abstract syntax tree
 
 The available token types in the JSL syntax.
 
-### `AST*.kt`
+### `AST.kt`
 
 Various types of AST nodes. The AST is a tree of statements. This language only
 has expressions at the moment, so you'll notice all important nodes except the
@@ -64,7 +64,7 @@ root are of type ASTExpressionStatement.
 
 The root node of the AST. The final parsed AST will be of this type.
 
-### `JSL.ky`
+### `JSL.kt`
 
 A nice high-level wrapper around everything above. Usage:
 
