@@ -1,8 +1,7 @@
 # JSL
 
 This is the reference implementation of the JSON Selector Language. JSL is a
-query language that allows the selection of values from JSON. It is inspired
-by languages like jq and JMESPath. Unlikely these two, JSL was designed to run
+query language that allows the selection of values from JSON. JSL was designed to run
 in client environments, such as the mobile apps or the web. It is
 intentionally a lightweight, simple language.
 
